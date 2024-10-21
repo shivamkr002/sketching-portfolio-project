@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rozha+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <nav id="header">
+          <p class="menu-bar"><i class="bi bi-list" onclick="toggle()"></i></p>
+          <h2 id="header-head">Shivam Kumar</h2>
+          <div class="header-div" id="Mobile-menu">
+            <p id="close"><i class="bi bi-x-lg" onclick="toggleout()"></i></p>
+            <ul class="list">
+              <a href="#hero-section">
+                <li id="red">Home</li>
+              </a>
+              <a href="#service-section">
+                <li>Service</li>
+              </a>
+              <a href="#section-gallery">
+                <li>Gallery</li>
+              </a>
+              <a href="#section-about">
+                <li>About me</li>
+              </a>
+            </ul>
+          </div>
+
+          <a href="#contact-section"
+            ><button class="border-button">Contact me</button></a
+          >
+        </nav>
+      </header>
+      <section id="hero-section">
+        <div class="data">
+          <div class="margin">
+            <h3 id="hello">Hello👋</h3>
+            <h2 id="iam">I’m <span class="hero-span">Shivam Kuamr</span>.</h2>
+            <div id="sketch">
+              <p>
+                I am providing Sketching, pencil color drawing and specialist in
+                face.
+              </p>
+            </div>
+            <a href="#contact-section"
+              ><button class="button">Contace me</button> </a
+            ><br />
+          </div>
+          <div>
+            <img id="chasmish" src="chasmish.png" alt="chasmish" />
+            <!-- <img id="background-img" src="background-img.jpg" alt="background-img" > -->
+          </div>
+        </div>
+      </section>
+
+      <section id="service-section">
+        <div>
+          <h2 class="center">Service</h2>
+          <p id="pcenter">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+        </div>
+
+        <div class="boxes">
+          <div class="box">
+            <div class="serviceimg">
+              <img
+                src="Sketching.jpg"
+                alt="Sketching-img"
+                width="111px"
+                height="106.03px"
+                class="service"
+              />
+            </div>
+            <h4 class="service">Sketching</h4>
+            <p class="servicepara">
+              Web hosting is like renting space on the internet to store and
+              display your website It involves using a powerful computer
+            </p>
+          </div>
+
+          <div class="box">
+            <div class="serviceimg">
+              <img
+                src="Pencil.jpg"
+                alt="Pencil color drawing-img"
+                width="111px"
+                height="106.03px"
+              />
+            </div>
+            <h4 class="service">Pencil color drawing</h4>
+            <p class="servicepara">
+              Web hosting is like renting space on the internet to store and
+              display your website It involves using a powerful computer
+            </p>
+          </div>
+
+          <div class="box">
+            <div class="service">
+              <img
+                src="face.jpg"
+                alt="Face Spelicialist-img"
+                width="111px"
+                height="106.03px"
+              />
+            </div>
+            <h4 class="service">Face Spelicialist</h4>
+            <p class="servicepara">
+              Web hosting is like renting space on the internet to store and
+              display your website It involves using a powerful computer
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="carry">
+        <div>
+          <img
+            src="carryminati.png"
+            alt="photos"
+            height="348.99px"
+            width="355.22px"
+            class="minati"
+          /><br />
+        </div>
+        <div class="carrybhai">
+          <h3 class="contactnow">CONTACT US NOW</h3>
+          <h3 class="want">Want A Sketch for Yourself or Your Loved Ones</h3>
+          <h5 class="robot">
+            We will create an oustanding sketch for you that makes you happy.
+          </h5>
+          <h5 class="robot">We will assure you that will love our services.</h5>
+          <p class="get">Get in touch with us.</p>
+          <a href="#contact-section"
+            ><button class="carrybutton">Contace me</button> </a
+          ><br />
+        </div>
+      </div>
+
+      <section id="section-gallery">
+        <div class="gallery">
+          <div>
+            <h2 id="gall">Gallery</h2>
+            <p class="latest">Our Latest creative work samples.</p>
+          </div>
+          <div class="D">
+            <img src="d01.png" alt="do1-img" class="gallery-img" />
+            <img src="d02.png" alt="d02-img" class="gallery-img" />
+            <img src="d03.png" alt="d03-img" class="gallery-img" />
+          </div>
+          <img src="add.png" alt="add" width="100%" />
+        </div>
+      </section>
+
+      <section id="section-about">
+        <div class="section-me">
+          <div>
+            <img src="about-img.png" alt="img" class="about-img" />
+          </div>
+          <div class="about-center">
+            <h2 class="about">About me</h2>
+            <p class="about-para">
+              Web hosting is a service that allows individuals and organizations
+              to make their websites accessible on the internet. It involves
+              storing website files, databases, and other resources on a server
+              that is connected to the internet 24/7. Web hosting providers
+              offer various hosting plans to cater to different needs, ranging
+              from shared hosting, where multiple websites share server
+              resources, to more advanced options like virtual private servers
+              (VPS) and dedicated servers.
+            </p>
+            <a href="#contact-section"
+              ><button class="button">Contace me</button> </a
+            ><br />
+          </div>
+        </div>
+      </section>
+
+      <!-- <div>
+        <input type="text">
+        <input type="text">
+       </div>
+       <div>
+        <input type="text">
+        <input type="text">
+       </div>
+       <div>
+        <select name="" id="">
+            <option value="">service</option>
+            <option value="Sketching">Sketching</option>
+            <option value="face-sketching">face-sketching</option>
+        </select>
+       </div>
+       <div>
+        <textarea name="input-box" id="" rows="5" cols="40" placeholder="Message"></textarea>
+       </div>
+       <input type="submit" class="button"> -->
+
+      <section id="contact-section">
+        <h2 class="section-us">Contact Us</h2>
+        <div>
+          <div class="section-contact">
+            <form action="">
+              <div>
+                <label for="fname"></label><br />
+                <input
+                  class="fname"
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  value=""
+                  placeholder="First name"
+                  required
+                />
+                <input
+                  type="text"
+                  id="lname"
+                  name="lname"
+                  value=""
+                  required
+                  placeholder="Last name"
+                  class="fname"
+                />
+              </div>
+              <div>
+                <input
+                  type="number"
+                  id="NO"
+                  name="no"
+                  placeholder="Mobile no"
+                  class="fname"
+                />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email-ID"
+                  class="fname"
+                />
+              </div>
+              <div>
+                <select name="Services" id="Services" class="Services-name">
+                  <option>Services</option>
+                  <option value="Sketching">Sketching</option>
+                  <option value="Pencil color drawing">
+                    Pencil color drawing
+                  </option>
+                  <option value="Face Spelicialist">Face Spelicialist</option>
+                </select>
+              </div>
+              <div>
+                <input
+                  type="Message"
+                  name="Message"
+                  placeholder="Message"
+                  class="Message"
+                />
+              </div>
+
+              <div id="last-button">
+                <button class="button-last">Submit</button>
+              </div>
+            </form>
+            <div>
+              <img src="carryminati.png" alt="img" class="lAST-IMG" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="foter">
+          <div>
+            <h2 class="foter-h">Shivam Kumar</h2>
+            <h4 class="foter-para">Sketching</h4>
+            <h4 class="foter-para">Face Specialist</h4>
+          </div>
+          <div class="foter-div">
+            <ul class="foter-list">
+              <a href="#hero-section"><li style="color: white">Home</li></a>
+              <a href="#service-section"
+                ><li style="color: white">Service</li>
+              </a>
+              <a href="section-gallery"
+                ><li style="color: white">Gallery</li>
+              </a>
+              <a href="section-about"><li style="color: white">About me</li></a>
+            </ul>
+          </div>
+          <div class="foter-ul">
+            <ul class="foter-contact">
+              <a href="#contact-section"
+                ><li style="color: white">Conract Us</li></a
+              >
+              <li>Create own website</li>
+              <li>Follow Us on</li>
+            </ul>
+            <div class="apps">
+              <img src="linked.png" alt="linked-app" class="foter-app" />
+              <img src="facebook.png" alt="facebool-app" class="foter-app" />
+              <img src="twitter.png" alt="twitter-app" />
+              <a href="https://www.instagram.com/shivam_siku_/" target="_blank"
+                ><img src="instagram.png" alt="instagram-app" class="foter-app"
+              /></a>
+              <!-- <a href="https://www.instagram.com/shivam_siku_/" target="_blank"><img src="vvvvv.png" alt="instagram id" style="width:60px; height:60px;"></a> -->
+            </div>
+          </div>
+
+          <div>
+            <img src="vecter.png" alt="" class="option" onclick="gototop()" />
+          </div>
+        </div>
+        <div class="foter-last">
+          <h4 class="last-Techies">
+            © <span id="year">2023</span> Techies Gateway. All Rights Reserved.
+          </h4>
+        </div>
+      </footer>
+    </main>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
